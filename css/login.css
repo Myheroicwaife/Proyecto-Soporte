@@ -1,0 +1,47 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/uno.jpg' );
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 1500px,500px;
+    background: linear-gradient(#141e30, #243b55);
+
+
+}
+
+
+.login-container {
+    background: rgba(0,0,0,.5);
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+input {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #000000;
+  text-align: center;
+  display: list-item;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
